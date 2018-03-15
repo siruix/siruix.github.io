@@ -1,1 +1,13 @@
-Hello World
+---
+layout: post
+title: A hacker's growth documentory
+---
+I am a software engineer specialized in system architecture and software development. This site is about my technical experience -- The documentory for a hacker's life. 
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
