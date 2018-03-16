@@ -1,4 +1,6 @@
 theme: minima
+repository:
+    siruix/siruix.github.io
 defaults:
   -
     scope:
