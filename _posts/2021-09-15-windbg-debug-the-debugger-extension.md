@@ -11,3 +11,5 @@ The target process to be attached depends on the debugger extension. Let's say t
 
 ### Windbgx B attaches to Enghost.exe process
 The debugger extension in the previous step is loaded into Enghost.exe process. Windbgx B should attach to Enghost.exe. Once attached, you should be able to search the debugger extension symbols. 
+
+![Windbgx_B](/assets/Windbgx-B.PNG)
